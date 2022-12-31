@@ -232,6 +232,7 @@ class CfdiInvoiceAttachment(models.TransientModel):
         if not journal:
             journal = invoice_obj.with_context(ctx)._default_journal()
         #journal = invoice_obj.with_context(ctx)._default_journal()
+        
         invoice_vals = {
             'move_type':'out_invoice',
             'partner_id':partner.id,
