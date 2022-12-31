@@ -10,7 +10,7 @@
                     OpenSSL - sudo apt-get install python3-openssl
                     ''',
     'category':     'Accounting',
-    'author':       'IT Admin',
+    'author':       'NEDI',
     'website':      '',
     'depends':      [
                     'account','l10n_mx_edi','sale_management','purchase','account_accountant'
